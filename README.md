@@ -5,19 +5,18 @@ Classic ecological models. Based on *An Illustrated Guide to Theoritical Ecology
 This Summer (2022), I started reading the book "An Illustrated Guide to Theoritical Ecology" from Ted J. Case. To better grasp the classic ecological models,and explore their behaviours, I decided to code some of them. My objective is to eventually create a *Shiny* application where I and others can play around with the parameters of the different models and vizualize how they behave. 
 
 # Model List (in progress)
-- Exponential growth (continuous time unrestricted growth)
-  - [x] Basic model
+- Unrestrictic growth (continuous time unrestricted growth)
+  - [x] Exponential growth model (continuous time)
+  - [x] Geometric growth model (discrete time)
   - [ ] Plots
-  - [ ] Spatial variation
-  - [ ] Temporal variation
-  - [ ] Individual variation
   - [ ] Shiny
-- Geometric growth (discrete time unrestricted growth)
-  - [x] Basic model
+- Geometric growth with movement
+  - [ ] Model
   - [ ] Plots
-  - [ ] Spatial variation
-  - [ ] Temporal variation
-  - [ ] Individual variation
+  - [ ] Shiny
+- Geometric growth with variation
+  - [ ] Individual variation model
+  - [ ] Plots
   - [ ] Shiny
 - Stage-structured growth
   - [ ] Basic model
