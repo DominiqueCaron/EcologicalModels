@@ -11,7 +11,7 @@ This Summer (2022), I started reading the book "An Illustrated Guide to Theoriti
   - [ ] Plots
   - [ ] Shiny
 - Geometric growth with movement
-  - [ ] Model
+  - [x] Model
   - [ ] Plots
   - [ ] Shiny
 - Geometric growth with variation
