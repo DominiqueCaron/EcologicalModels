@@ -21,8 +21,8 @@ exponential_growth <- function(N0, r, tmax = 100){
 }
 
 
-ggplot(data = data.frame(t, exponential_growth), aes(x = t, y = N)) +
-  geom_line(color = data_color, size = 3) +
-  geom_text(x = tmax/5, y = max(N)*0.9, label = paste0("r = ", r), size = 5, color = text_color)+
-  labs(x = "Time", y = "N") +
-  my_theme
+# ggplot(data = data.frame(t, exponential_growth), aes(x = t, y = N)) +
+#   geom_line(color = data_color, size = 3) +
+#   geom_text(x = tmax/5, y = max(N)*0.9, label = paste0("r = ", r), size = 5, color = text_color)+
+#   labs(x = "Time", y = "N") +
+#   my_theme
