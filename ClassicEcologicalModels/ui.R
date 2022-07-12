@@ -48,7 +48,26 @@ shinyUI(navbarPage("Classic Ecological Models",
                                              )
                                            )
                                          )),
-                                         tabPanel("Geometric growth with movement"),
+                                         tabPanel("Geometric growth with movement", sidebarLayout(
+                                           sidebarPanel(h1("Parameters"),
+                                                        sliderInput("m3_N0", label = "Initial population size (N0):", min = 1,
+                                                                     max = 100, value = 50, step = 5),
+                                                        numericInput("m3_lambda", label = "Discrete rate of growth (lambda):", min = 0,
+                                                                    max = 3, value = 1, step = 0.05),
+                                                        numericInput("m3_d", label = "Movement rate (d):", min = 0,
+                                                                     max = 1, value = 0.5, step = 0.1),
+                                                        numericInput("m3_maxt", label = "Length of simulation:", min = 1, max = 100,
+                                                                     value = 10, step = 5)
+                                           ),
+                                           mainPanel(
+                                             div(
+                                               h1("Theory"),
+                                               p("blablabla"),
+                                               h1("Plots"),
+                                               imageOutput("GeometricWithMovementPlot")
+                                             )
+                                           )
+                                         )),
                                          tabPanel("Geometric growth with variation"),
                                          tabPanel("Stage-structuctured growth"))
                               )

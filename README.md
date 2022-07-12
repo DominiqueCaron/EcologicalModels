@@ -8,12 +8,13 @@ This Summer (2022), I started reading the book "An Illustrated Guide to Theoriti
 - Unrestrictic growth (continuous time unrestricted growth)
   - [x] Exponential growth model (continuous time)
   - [x] Geometric growth model (discrete time)
-  - [ ] Plots
   - [ ] Shiny
+  - [ ] Theory
 - Geometric growth with movement
   - [x] Model
   - [ ] Plots
   - [ ] Shiny
+  - [ ] Theory
 - Geometric growth with variation
   - [ ] Individual variation model
   - [ ] Plots
