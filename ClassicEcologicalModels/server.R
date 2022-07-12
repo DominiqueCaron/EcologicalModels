@@ -36,7 +36,7 @@ shinyServer(function(input, output) {
         theme_minimal() +
         transition_time(t) + 
         ease_aes('linear')
-      anim_save("outfile.gif")
+      anim_save("outfile.gif", p)
       list(src = "outfile.gif",
            contentType = 'image/gif'
            # width = 400,

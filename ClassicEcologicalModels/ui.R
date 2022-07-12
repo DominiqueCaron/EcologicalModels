@@ -1,6 +1,9 @@
 library(shiny)
+library(gganimate)
+library(gifski)
 library(ggplot2)
 source("../01_unrestricted_growth.R")
+source("../02_growth_with movements.R")
 
 # Define UI for application that draws a histogram
 shinyUI(navbarPage("Classic Ecological Models",
