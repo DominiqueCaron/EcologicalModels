@@ -1,0 +1,12 @@
+
+.navbar-static-top {
+    color: #fff;
+    text-shadow: none;
+    padding: 1px 3px;
+    background-color: PowderBlue;
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 1.333;
+}
+
+.navbar-default .navbar-nav>.active>a {background-color: green}
